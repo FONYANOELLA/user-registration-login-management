@@ -1,0 +1,123 @@
+h1{
+    border:solid 4px;
+    border-color: black;
+    font-size: 50px;
+    color: red;
+background: #333;
+
+}
+
+h1 span{
+    color: crimson;
+}
+
+    *{
+    padding: 0;
+    margin: 0;
+}
+.register{
+    opacity:0.6;
+}
+
+.register form h2{
+    font-size: 40px;
+    color: #333;
+
+}
+
+
+
+body{
+    background-image: url(images/DQFG4501.JPG) ;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.footer{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    float:right ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin-left: 60px;
+    margin-top: 20px;
+    list-style: none;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+
+
+.register{
+    margin: auto;
+    padding: 10% 0 0;
+    width: 350px;
+}
+
+.login{
+    position: relative;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0 auto 100px;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    padding: 50px;
+}
+    
+.register form .form-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+    /* background: crimson; */
+    /* color: #fff; */
+}
+.register form .form-btn:hover{
+    background: crimson;
+    color: #fff;
+}
+
+.register form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.header .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+
+}
+
+.header .btn:hover{
+    background: blue;
+    color: #fff;
+}
+
+.input{
+    font-size: 15px;
+    border-width: 1px solid gray;
+    padding: 10px;
+    margin-top: 10pxpx;
+    height: 20px;
+    border-radius: 20px;
+}
